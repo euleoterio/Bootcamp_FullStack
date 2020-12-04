@@ -1,0 +1,28 @@
+body {
+  background-color: lightgray;
+}
+
+h1 {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+table,
+tr,
+th {
+  margin-left: 30%;
+  font-weight: bold;
+}
+td {
+  padding: 5px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  margin-left: 45%;
+}

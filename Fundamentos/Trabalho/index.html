@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalho - Alterando cor a partir do range</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <h1>Alterando cor a partir do range</h1>
+
+    <div>
+      <table>
+        <tbody>
+          <table>
+            <tr>
+              <!-- RED -->
+              <form>
+                <label>
+                  <td>(R) Vermelho:</td>
+                  <td>
+                    <input type="range" min="0" max="255" id="redRange" />
+                  </td>
+                  <td>
+                    <input type="text" disabled id="redValue" value="" />
+                  </td>
+                </label>
+              </form>
+            </tr>
+            <tr>
+              <!-- GREEN -->
+              <form>
+                <label>
+                  <td>(G) Verde:</td>
+                  <td>
+                    <input type="range" min="0" max="255" id="greenRange" />
+                  </td>
+                  <td>
+                    <input type="text" disabled id="greenValue" value="" />
+                  </td>
+                </label>
+              </form>
+            </tr>
+            <tr>
+              <!-- BLUE -->
+              <form>
+                <label>
+                  <td>(B) Azul:</td>
+                  <td>
+                    <input type="range" min="0" max="255" id="blueRange" />
+                  </td>
+                  <td>
+                    <input type="text" disabled id="blueValue" value="" />
+                  </td>
+                </label>
+              </form>
+            </tr>
+          </table>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Div result color -->
+    <div class="square"></div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
