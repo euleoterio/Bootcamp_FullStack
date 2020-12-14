@@ -1,0 +1,12 @@
+{
+  "name": "filysystem",
+  "version": "1.0.0",
+  "description": "Importing file system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vinicius Euleoterio",
+  "license": "ISC",
+  "type": "module"
+}
