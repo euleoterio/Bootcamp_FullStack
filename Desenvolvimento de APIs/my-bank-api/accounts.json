@@ -1,25 +1,25 @@
 {
-  "nextId": 5,
+  "nextId": 7,
   "accounts": [
     {
       "id": 1,
       "name": "Vinicius Euleoterio",
-      "balance": 20000
-    },
-    {
-      "id": 2,
-      "name": "Bernardo Alves",
-      "balance": 5000
+      "balance": 10000.55
     },
     {
       "id": 3,
       "name": "José Silva",
-      "balance": 1455
+      "balance": 3000.33
     },
     {
       "id": 4,
       "name": "José Silva",
-      "balance": 3200
+      "balance": 0
+    },
+    {
+      "id": 6,
+      "name": "Usuário por Swagger",
+      "balance": 3200.33
     }
   ]
 }
