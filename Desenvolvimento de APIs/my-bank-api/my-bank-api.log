@@ -1,0 +1,43 @@
+2021-01-22T02:36:23.503Z [my-bank-api] info: API Started and File created
+2021-01-22T02:37:10.408Z [my-bank-api] info: POST /account - {"id":1,"name":"Vinicius Euleoterio","balance":10000.55}
+2021-01-22T02:37:35.843Z [my-bank-api] info: POST /account - {"id":2,"name":"José Silta","balance":3000.33}
+2021-01-22T02:37:48.027Z [my-bank-api] info: GET /account}
+2021-01-22T02:37:56.918Z [my-bank-api] info: GET /account/:id}
+2021-01-22T02:38:03.408Z [my-bank-api] info: GET /account/:id}
+2021-01-22T02:38:29.677Z [my-bank-api] info: PATCH /account/updateBalance - {"id":2,"balance":5200.55}
+2021-01-22T02:38:35.638Z [my-bank-api] info: GET /account}
+2021-01-22T02:38:49.735Z [my-bank-api] info: PUT /account - {"id":2,"name":"José Silva","balance":3200.55}
+2021-01-22T02:38:55.905Z [my-bank-api] info: DELETE /account/:id - 2}
+2021-01-22T02:39:10.759Z [my-bank-api] info: GET /account}
+2021-01-22T02:47:17.620Z [my-bank-api] info: POST /account - {"id":3,"name":"José Silva","balance":3000.33}
+2021-01-22T02:47:25.240Z [my-bank-api] info: GET /account}
+2021-01-22T02:51:39.294Z [my-bank-api] info: API Started
+2021-01-22T02:54:11.024Z [my-bank-api] error: POST /account Name e Balance são obrigatórios
+2021-01-22T02:54:21.353Z [my-bank-api] error: POST /account Name e Balance são obrigatórios
+2021-01-22T02:55:20.979Z [my-bank-api] info: API Started
+2021-01-22T02:55:32.800Z [my-bank-api] info: POST /account - {"id":4,"name":"José Silva","balance":0}
+2021-01-22T02:56:20.357Z [my-bank-api] error: POST /account Name e Balance são obrigatórios
+2021-01-22T02:57:04.980Z [my-bank-api] info: API Started
+2021-01-22T02:59:38.490Z [my-bank-api] info: API Started
+2021-01-22T02:59:48.408Z [my-bank-api] error: PUT /account Registro não encontrado.
+2021-01-22T03:00:14.336Z [my-bank-api] info: API Started
+2021-01-22T03:01:36.014Z [my-bank-api] info: API Started
+2021-01-22T03:03:46.605Z [my-bank-api] info: API Started
+2021-01-22T03:06:12.016Z [my-bank-api] info: API Started
+2021-01-24T01:09:52.260Z [my-bank-api] info: API Started
+2021-01-24T01:09:55.055Z [my-bank-api] info: GET /account}
+2021-01-24T01:14:07.542Z [my-bank-api] info: API Started
+2021-01-24T03:17:03.105Z [my-bank-api] info: POST /account - {"id":5,"name":"José Silva","balance":100.11}
+2021-01-24T03:18:47.844Z [my-bank-api] error: PUT /account Registro não encontrado.
+2021-01-24T03:18:53.980Z [my-bank-api] info: GET /account}
+2021-01-24T03:19:08.607Z [my-bank-api] info: PUT /account - {"id":5,"name":"Teste Swagger","balance":3200.55}
+2021-01-24T03:20:20.646Z [my-bank-api] info: DELETE /account/:id - 5}
+2021-01-24T03:27:57.477Z [my-bank-api] info: API Started
+2021-01-24T03:28:16.471Z [my-bank-api] info: API Started
+2021-01-24T03:28:40.342Z [my-bank-api] info: API Started
+2021-01-24T03:28:53.994Z [my-bank-api] info: API Started
+2021-01-24T03:38:43.900Z [my-bank-api] info: API Started
+2021-01-24T03:40:01.734Z [my-bank-api] info: GET /account}
+2021-01-24T03:41:04.292Z [my-bank-api] info: POST /account - {"id":6,"name":"Usuário por Swagger","balance":3200.33}
+2021-01-24T03:41:19.573Z [my-bank-api] info: GET /account/:id}
+2021-01-24T03:47:46.089Z [my-bank-api] info: API Started

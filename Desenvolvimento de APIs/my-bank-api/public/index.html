@@ -1,0 +1,15 @@
+<!-- Exemplo de código para consumo de API -->
+<html>
+
+<script>
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function () {
+    if (xhttp.readyState == 4 && xhttp.status == 200) {
+      console.log(this);
+    }
+  };
+  xhttp.open('GET', "http://localhost:3000/account");
+  xhttp.send();
+</script>
+
+</html>
